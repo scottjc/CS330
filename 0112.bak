@@ -1,0 +1,28 @@
+#lang racket
+(define (extract str);prefix notation
+  (substring str 4 7))
+
+;01/01/2017
+;a symbol in an interpretted language. No value assigned to it. Nothing is
+;   bound to it.
+'abc
+
+;true and false
+#t
+#f
+(>= 5 0) ;true
+(negative? 3) ;false
+(string=? "hello" "hello") ;true
+(number->string 42)
+(string-> number "42")
+
+
+(define foo 42)
+
+;'+
+;eval foo
+;eval we evaluate this expressioin. if symbol, look it up
+
+;we can pass functions around!
+
+;symbol / vs. procedure /
