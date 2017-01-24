@@ -1,0 +1,6 @@
+#lang racket
+
+;curying   (inc-by 5) a function. add 5
+(define (inc-by k)
+  (lambda (x)
+    (= x k)))
